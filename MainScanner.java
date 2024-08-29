@@ -8,7 +8,7 @@ public class MainScanner {
     float salarioSinAjuste = sal.nextFloat();
     System.out.println("Ingrese el porcentaje del aumento (si es el 15% ingresar 0.15");
     float porcentajeAumento = sal.nextFloat();
-    EjercicioIF pruebaScanner = new EjercicioIF(salarioSinAjuste, porcentajeAumento, porcentajeAumento);
+    EjercicioIF pruebaScanner = new EjercicioIF(salarioSinAjuste, porcentajeAumento, 0);
     float salarAjustado = pruebaScanner.calcularSalario();
     System.out.println("El salario ajustado es igual a : " + salarAjustado);
     sal.close();
