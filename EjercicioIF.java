@@ -1,4 +1,4 @@
-/*public class EjercicioIF {
+public class EjercicioIF {
 
     float salarioSinAjuste;
     float porcentajeAumento;
@@ -24,4 +24,3 @@ if (salarioSinAjuste<1300606){
 return salarioConAjuste;
     }
 }
-*/
