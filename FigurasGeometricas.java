@@ -14,27 +14,33 @@ public FigurasGeometricas(float ladoCuadrado, float baseTriangulo, float alturaT
     this.AlturaTriangulo = alturaTriangulo;
     this.RadioCirculo = radioCirculo;
     this.OptionFigura = optionFigura;
+}
 
+public void calcularArea(){
+    switch (OptionFigura) {
 
-switch (OptionFigura) {
+        case 1: 
 
-     case 1:
+            float areaCuadrado = LadoCuadrado*LadoCuadrado;
+            System.out.println("El area del cuadrado es:"+ areaCuadrado);
+             break;
+        case 2:
 
-     break;
+            float areaTriangulo = BaseTriangulo*BaseTriangulo/2;
+            System.out.println("El area del cuadrado es:"+ areaTriangulo);
+             break;
+        case 3:
 
-     case 2:
-
-     break;
-
-     case 3:
-
-     break;
+            double areaCirculo = (Math.PI) * RadioCirculo*RadioCirculo;
+            System.out.println("El area del cuadrado es:"+ areaCirculo);
+             break;  
 
      default:
-     break;
+         break;
+}
 }
 
-}
+
 
 
 }
