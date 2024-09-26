@@ -9,7 +9,7 @@ do {
                factorial=factorial*i;
                 
             }
-            alert(factorial + "Es el factorial de " + numeroEntrada); 
+            alert(factorial + "Es el factorial de " + numeroEntrada); factorial=1; 
 
             break;
         case 2:
